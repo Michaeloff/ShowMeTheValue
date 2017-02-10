@@ -1,0 +1,38 @@
+// Home Estimates Near Me
+//
+// 1) Get user authorization to use current location (Apple CLLocationManager)
+//
+// 2) Show map of current location. User chooses to find nearby addresses
+//
+// 3) Use Google Geocode to lookup potential U.S. street address by latitude and longitude of current location. Get 4 more locations in a circle around current location.
+//      Example: "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.637933,-122.347938&key=AIzaSyAw39qx0_hpB9D1qbYOjQxPAfw69Uitwxg"
+//      Returns in JSON format: "formatted_address" : "2114 Bigelow Ave N, Seattle, WA 98109, USA"
+//
+// 4) User is shown a list addresses found and a text field for manual address entry
+//      User selects an address or enters one to get an estimate and other data for the property selected.
+//
+// 5) Lookup house data using address (Zillow, returned as XML)
+//      Get estimate and other data either with zip or city/state:
+//      http://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz1fgxn8cq7m3_8469v&address=2114+Bigelow+Ave&citystatezip=98109
+//      http://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz1fgxn8cq7m3_8469v&address=2114+Bigelow+Ave&citystatezip=Seattle%2C+WA
+//
+// 6) Get additional Zillow data as well as property image (XML)
+//      Example: http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id=X1-ZWz1fgxn8cq7m3_8469v&zpid=48749425
+//      Example property image: https://photos.zillowstatic.com/p_d/ISxb3qa8s1cwx01000000000.jpg
+//
+// 7) Get Google street view image of property for additional info screen or if Zillow image doesn't exist
+//      Call streetview metadata. If JSON returned with "OK" status, make additional call to receive image directly. Examples:
+//      https://maps.googleapis.com/maps/api/streetview/metadata?size=600x300&location=47.6379364,-122.3479871&key=AIzaSyC9zvwgQmPg2P1dSGk_0TJ8ZwdLykihJwk
+//      https://maps.googleapis.com/maps/api/streetview?size=600x300&location=47.6379364,-122.3479871&key=AIzaSyC9zvwgQmPg2P1dSGk_0TJ8ZwdLykihJwk
+//
+// Error handling:
+//  - User does not authorize to use location data
+//  - No internet connection
+//  - Manual address format incorrect
+//  - HTTP request failed
+//  - Zillow has a limit on key: 1000 uses per day. Note: Not currently handling max usage.
+//  - No estimate data and/or image data for property in question
+//      - Reason: Not in Zillow/Google database - E.g. new development
+//      - Reason: Access not allowed (e.g. private homes behind gate)
+//      - Reason: Zillow often has data, but not always images. Sometimes partial data is available. Google usually has street view image, except for new/private properties.
+

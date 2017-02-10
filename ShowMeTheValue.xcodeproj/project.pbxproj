@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500312681E2FFE8F00EC5B61 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500312671E2FFE8F00EC5B61 /* ImageHelper.swift */; };
+		50422ADD1E41C2B500B01C08 /* CurrentLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 50422ADC1E41C2B500B01C08 /* CurrentLocation.png */; };
+		504F8BDD1DA4ACAA0043FAC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F8BDC1DA4ACAA0043FAC4 /* AppDelegate.swift */; };
+		504F8BDF1DA4ACAA0043FAC4 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F8BDE1DA4ACAA0043FAC4 /* StartingViewController.swift */; };
+		504F8BE21DA4ACAA0043FAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504F8BE01DA4ACAA0043FAC4 /* Main.storyboard */; };
+		504F8BE41DA4ACAA0043FAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504F8BE31DA4ACAA0043FAC4 /* Assets.xcassets */; };
+		504F8BE71DA4ACAA0043FAC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504F8BE51DA4ACAA0043FAC4 /* LaunchScreen.storyboard */; };
+		50579FFC1E29B07800B2B1CB /* Help.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50579FFB1E29B07800B2B1CB /* Help.txt */; };
+		505E2AF81E32FB2D0037C8D5 /* AddressInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E2AF71E32FB2D0037C8D5 /* AddressInfoViewController.swift */; };
+		506A2E631E31999500D3EABE /* JsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A2E621E31999500D3EABE /* JsonManager.swift */; };
+		506C963F1E37C8D900A08783 /* AddressEstimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506C963E1E37C8D900A08783 /* AddressEstimateViewController.swift */; };
+		507430B71DA4AE7200B18218 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507430B51DA4AE7200B18218 /* RestApiManager.swift */; };
+		507430B81DA4AE7200B18218 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507430B61DA4AE7200B18218 /* Model.swift */; };
+		5094457A1E3ECB5300C7C570 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509445791E3ECB5300C7C570 /* AboutViewController.swift */; };
+		50D2955A1E3979DF003F4257 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D295591E3979DF003F4257 /* Utilities.swift */; };
+		50E21CA51E300A1700D2E939 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E21CA41E300A1700D2E939 /* LocationManager.swift */; };
+		50F295541E34340000561DCB /* Zillowlogo_200x50.gif in Resources */ = {isa = PBXBuildFile; fileRef = 50F295531E34340000561DCB /* Zillowlogo_200x50.gif */; };
+		50F295561E343FEA00561DCB /* AddressDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F295551E343FEA00561DCB /* AddressDetailsViewController.swift */; };
+		50F67E571E318B2D0061741D /* XmlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F67E561E318B2D0061741D /* XmlManager.swift */; };
+		A8230575E383DF0E7B11296A /* Pods_RestZillow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1197697F3603EE4DC701364 /* Pods_RestZillow.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134A48B3758B076F809F4B66 /* Pods-RestZillow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestZillow.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestZillow/Pods-RestZillow.release.xcconfig"; sourceTree = "<group>"; };
+		500312671E2FFE8F00EC5B61 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		50422ADC1E41C2B500B01C08 /* CurrentLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CurrentLocation.png; path = Images/CurrentLocation.png; sourceTree = "<group>"; };
+		504F8BD91DA4ACAA0043FAC4 /* ShowMeTheValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowMeTheValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504F8BDC1DA4ACAA0043FAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		504F8BDE1DA4ACAA0043FAC4 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		504F8BE11DA4ACAA0043FAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504F8BE31DA4ACAA0043FAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504F8BE61DA4ACAA0043FAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504F8BE81DA4ACAA0043FAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50579FFB1E29B07800B2B1CB /* Help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Help.txt; sourceTree = "<group>"; };
+		505E2AF71E32FB2D0037C8D5 /* AddressInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressInfoViewController.swift; sourceTree = "<group>"; };
+		506A2E621E31999500D3EABE /* JsonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonManager.swift; sourceTree = "<group>"; };
+		506C963E1E37C8D900A08783 /* AddressEstimateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressEstimateViewController.swift; sourceTree = "<group>"; };
+		507430B51DA4AE7200B18218 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		507430B61DA4AE7200B18218 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		509445791E3ECB5300C7C570 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		50D295591E3979DF003F4257 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		50E21CA41E300A1700D2E939 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		50F295531E34340000561DCB /* Zillowlogo_200x50.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Zillowlogo_200x50.gif; path = Images/Zillowlogo_200x50.gif; sourceTree = "<group>"; };
+		50F295551E343FEA00561DCB /* AddressDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressDetailsViewController.swift; sourceTree = "<group>"; };
+		50F67E561E318B2D0061741D /* XmlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlManager.swift; sourceTree = "<group>"; };
+		9C4ECCC60AB7ED39386CD5F1 /* Pods-RestZillow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestZillow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestZillow/Pods-RestZillow.debug.xcconfig"; sourceTree = "<group>"; };
+		F1197697F3603EE4DC701364 /* Pods_RestZillow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestZillow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504F8BD61DA4ACAA0043FAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8230575E383DF0E7B11296A /* Pods_RestZillow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504F8BD01DA4ACAA0043FAC4 = {
+			isa = PBXGroup;
+			children = (
+				504F8BDB1DA4ACAA0043FAC4 /* ShowMeTheValue */,
+				504F8BDA1DA4ACAA0043FAC4 /* Products */,
+				B02C3A2D01EFE06F3F514ABC /* Pods */,
+				962D4CD77AAD925A7E03B81C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		504F8BDA1DA4ACAA0043FAC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504F8BD91DA4ACAA0043FAC4 /* ShowMeTheValue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504F8BDB1DA4ACAA0043FAC4 /* ShowMeTheValue */ = {
+			isa = PBXGroup;
+			children = (
+				50579FFA1E29ABC400B2B1CB /* Supporting Files */,
+				50CE53CA1E36A6FF00AB05AA /* Managers */,
+				50579FFB1E29B07800B2B1CB /* Help.txt */,
+				507430B61DA4AE7200B18218 /* Model.swift */,
+				504F8BE01DA4ACAA0043FAC4 /* Main.storyboard */,
+				504F8BDE1DA4ACAA0043FAC4 /* StartingViewController.swift */,
+				509445791E3ECB5300C7C570 /* AboutViewController.swift */,
+				505E2AF71E32FB2D0037C8D5 /* AddressInfoViewController.swift */,
+				506C963E1E37C8D900A08783 /* AddressEstimateViewController.swift */,
+				50F295551E343FEA00561DCB /* AddressDetailsViewController.swift */,
+			);
+			path = ShowMeTheValue;
+			sourceTree = "<group>";
+		};
+		50579FFA1E29ABC400B2B1CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F295531E34340000561DCB /* Zillowlogo_200x50.gif */,
+				50422ADC1E41C2B500B01C08 /* CurrentLocation.png */,
+				504F8BDC1DA4ACAA0043FAC4 /* AppDelegate.swift */,
+				504F8BE51DA4ACAA0043FAC4 /* LaunchScreen.storyboard */,
+				504F8BE31DA4ACAA0043FAC4 /* Assets.xcassets */,
+				504F8BE81DA4ACAA0043FAC4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CE53CA1E36A6FF00AB05AA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				500312671E2FFE8F00EC5B61 /* ImageHelper.swift */,
+				507430B51DA4AE7200B18218 /* RestApiManager.swift */,
+				50F67E561E318B2D0061741D /* XmlManager.swift */,
+				506A2E621E31999500D3EABE /* JsonManager.swift */,
+				50E21CA41E300A1700D2E939 /* LocationManager.swift */,
+				50D295591E3979DF003F4257 /* Utilities.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		962D4CD77AAD925A7E03B81C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1197697F3603EE4DC701364 /* Pods_RestZillow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02C3A2D01EFE06F3F514ABC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4ECCC60AB7ED39386CD5F1 /* Pods-RestZillow.debug.xcconfig */,
+				134A48B3758B076F809F4B66 /* Pods-RestZillow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504F8BD81DA4ACAA0043FAC4 /* ShowMeTheValue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504F8BEB1DA4ACAA0043FAC4 /* Build configuration list for PBXNativeTarget "ShowMeTheValue" */;
+			buildPhases = (
+				9628AE1BDADABE24501CF510 /* [CP] Check Pods Manifest.lock */,
+				504F8BD51DA4ACAA0043FAC4 /* Sources */,
+				504F8BD61DA4ACAA0043FAC4 /* Frameworks */,
+				504F8BD71DA4ACAA0043FAC4 /* Resources */,
+				8C20ED4431AB79AA9077FBE2 /* [CP] Embed Pods Frameworks */,
+				9BDB7628BEAE3302A50A3E09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowMeTheValue;
+			productName = RestZillow;
+			productReference = 504F8BD91DA4ACAA0043FAC4 /* ShowMeTheValue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504F8BD11DA4ACAA0043FAC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "David Michaeloff";
+				TargetAttributes = {
+					504F8BD81DA4ACAA0043FAC4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3P5G28SH39;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 504F8BD41DA4ACAA0043FAC4 /* Build configuration list for PBXProject "ShowMeTheValue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504F8BD01DA4ACAA0043FAC4;
+			productRefGroup = 504F8BDA1DA4ACAA0043FAC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504F8BD81DA4ACAA0043FAC4 /* ShowMeTheValue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504F8BD71DA4ACAA0043FAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504F8BE71DA4ACAA0043FAC4 /* LaunchScreen.storyboard in Resources */,
+				50422ADD1E41C2B500B01C08 /* CurrentLocation.png in Resources */,
+				504F8BE41DA4ACAA0043FAC4 /* Assets.xcassets in Resources */,
+				504F8BE21DA4ACAA0043FAC4 /* Main.storyboard in Resources */,
+				50579FFC1E29B07800B2B1CB /* Help.txt in Resources */,
+				50F295541E34340000561DCB /* Zillowlogo_200x50.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C20ED4431AB79AA9077FBE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestZillow/Pods-RestZillow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9628AE1BDADABE24501CF510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDB7628BEAE3302A50A3E09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestZillow/Pods-RestZillow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504F8BD51DA4ACAA0043FAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506C963F1E37C8D900A08783 /* AddressEstimateViewController.swift in Sources */,
+				504F8BDF1DA4ACAA0043FAC4 /* StartingViewController.swift in Sources */,
+				506A2E631E31999500D3EABE /* JsonManager.swift in Sources */,
+				500312681E2FFE8F00EC5B61 /* ImageHelper.swift in Sources */,
+				50E21CA51E300A1700D2E939 /* LocationManager.swift in Sources */,
+				50F67E571E318B2D0061741D /* XmlManager.swift in Sources */,
+				50D2955A1E3979DF003F4257 /* Utilities.swift in Sources */,
+				507430B81DA4AE7200B18218 /* Model.swift in Sources */,
+				50F295561E343FEA00561DCB /* AddressDetailsViewController.swift in Sources */,
+				504F8BDD1DA4ACAA0043FAC4 /* AppDelegate.swift in Sources */,
+				507430B71DA4AE7200B18218 /* RestApiManager.swift in Sources */,
+				5094457A1E3ECB5300C7C570 /* AboutViewController.swift in Sources */,
+				505E2AF81E32FB2D0037C8D5 /* AddressInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		504F8BE01DA4ACAA0043FAC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504F8BE11DA4ACAA0043FAC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504F8BE51DA4ACAA0043FAC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504F8BE61DA4ACAA0043FAC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504F8BE91DA4ACAA0043FAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504F8BEA1DA4ACAA0043FAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504F8BEC1DA4ACAA0043FAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4ECCC60AB7ED39386CD5F1 /* Pods-RestZillow.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3P5G28SH39;
+				INFOPLIST_FILE = "$(SRCROOT)/ShowMeTheValue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.showmethevalue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		504F8BED1DA4ACAA0043FAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134A48B3758B076F809F4B66 /* Pods-RestZillow.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3P5G28SH39;
+				INFOPLIST_FILE = "$(SRCROOT)/ShowMeTheValue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.showmethevalue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504F8BD41DA4ACAA0043FAC4 /* Build configuration list for PBXProject "ShowMeTheValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504F8BE91DA4ACAA0043FAC4 /* Debug */,
+				504F8BEA1DA4ACAA0043FAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504F8BEB1DA4ACAA0043FAC4 /* Build configuration list for PBXNativeTarget "ShowMeTheValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504F8BEC1DA4ACAA0043FAC4 /* Debug */,
+				504F8BED1DA4ACAA0043FAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504F8BD11DA4ACAA0043FAC4 /* Project object */;
+}
